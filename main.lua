@@ -1,6 +1,5 @@
-local inputPath = 'example.jpeg';
-
-local grayScale = true;
+local inputPath = arg[2];
+local grayScale = arg[3];
 
 local function round(x)
     return x + (2 ^ 52 + 2 ^ 51) - (2 ^ 52 + 2 ^ 51);
